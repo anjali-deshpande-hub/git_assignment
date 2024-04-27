@@ -4,13 +4,13 @@
 
 'Issue' is a feature of Github. It allows users to track enhancements, bugs, tasks or any other issues that needs to be discussed by the team members. Team members can discuss ideas, suggest improvements or solutions, ask questions related to a project via 'Issues'. Issues provides a structured way to collaborate and manage developmemt cycle. 
 
-Issues can be assigned to a user/developer. There can be labels attached to an issue. Labels are used to organize and categorize Issues. Milestones can be added to group issues and tracked. Issues also have a status (e.g. Open/Close) an can be linked to pull requests. 
+Issues can be assigned to a user/developer. There can be labels attached to an issue. Labels are used to organize and categorize Issues. Milestones can be added to group issues and tracked. Issues also have a status (e.g. Open/Close) an d they can be linked to pull requests. 
 
 <i><b>b. What is a pull request?</b></i>
 
 'Pull Request' is a feature of GitHub that allows users to submit their work to a repository. Pull request is a way for asking permission to add your code to the main project after it has been reviewed. The owner of the main repository can review the changes proposed in the pull request, suggest changes, add comments or approve changes.
 
-The steps to add your work is to fork the repository, make changes like adding new features or fixing bugs, creating pull request, reviewing changes and merging changes. 
+The steps to add your work are to fork the repository, make changes like adding new features or bug fixes, creating pull request, reviewing changes and merging changes. 
 
 It is a structured way for coders to propose their changes, ask for reviewing their changes and for the teams to collaborate the changes to the codebase. This ensures a better quality of code. It forces review to be a mandatory step in merging new code to the codebase.
 
@@ -20,22 +20,21 @@ Opening a pull request is done through the browser by opening the repository on 
 1. Fork the repository: First we fork the repository that we want to work with. It creates a copy of the repository under your GitHub account.
 2. Clone the fork: Clone the forked repository on local machine using:
 
-&nbsp; git clone \<url of the forked repository\>
+<i>\tgit clone \<url of the forked repository\></i>
 
 3. Create a new branch: Create a new branch to make the changes and switch to the branch using
 
-&nbsp; git checkout -b \<new_branch\>
+<i>\tgit checkout -b \<new_branch\></i>
 
 4. Make changes to the local repository
 5. Stage and Commit changes using
 
-&nbsp;git add \<filename\>
-
-&nbsp;git commit \<filename\> -m "Commit comments"
+<i>\tgit add \<filename\></i><br>
+<i>\tgit commit \<filename\> -m "Commit comments" </i>
 
 6. Push changes to fork
 
-&nbsp;git push -u origin \<new_branch\>
+<i>\tgit push -u origin \<new_branch\></i>
 
 7. Navigate to the branch on the forked repository. Click on "Compare and pull request" button to open a new pull request.
 8. Review the changes made and add title and description and click "Create pull request".
