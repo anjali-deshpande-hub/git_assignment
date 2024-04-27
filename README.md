@@ -20,21 +20,21 @@ Opening a pull request is done through the browser by opening the repository on 
 1. Fork the repository: First we fork the repository that we want to work with. It creates a copy of the repository under your GitHub account.
 2. Clone the fork: Clone the forked repository on local machine using:
 
-<i>\tgit clone \<url of the forked repository\></i>
+   <i>git clone \<url of the forked repository\></i>
 
 3. Create a new branch: Create a new branch to make the changes and switch to the branch using
 
-<i>\tgit checkout -b \<new_branch\></i>
+   <i>git checkout -b \<new_branch\></i>
 
 4. Make changes to the local repository
 5. Stage and Commit changes using
 
-<i>\tgit add \<filename\></i><br>
-<i>\tgit commit \<filename\> -m "Commit comments" </i>
+   <i>git add \<filename\></i><br>
+   <i>git commit \<filename\> -m "Commit comments" </i>
 
 6. Push changes to fork
 
-<i>\tgit push -u origin \<new_branch\></i>
+   <i>git push -u origin \<new_branch\></i>
 
 7. Navigate to the branch on the forked repository. Click on "Compare and pull request" button to open a new pull request.
 8. Review the changes made and add title and description and click "Create pull request".
