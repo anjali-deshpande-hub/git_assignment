@@ -35,24 +35,31 @@ git push -u origin \<new_branch\>
 d. Give me a step by step guide on how to add someone to your repository.
 
 To add someone to a repository on GitHub, you need to invite them as a collaborator. 
-1. Go to GitHub repository that you want to add someone to. Click on the "Setting" tab at the end.\n
-See snapshot below:\n
+1. Go to GitHub repository that you want to add someone to. Click on the "Setting" tab at the end.
+
+See snapshot below:
+
 ![Alt text](https://github.com/anjali-deshpande-hub/git_assignment/blob/assignment/image1.jpg "Collaborator")
 
 2. In the left sidebar, under 'Access', there is a 'Collaborators' link. Click on it.
 
-3. It opens up a page that has 'Manage Access" with "Add people" button the the right. \n
-See snapshot below:\n
+3. It opens up a page that has 'Manage Access" with "Add people" button the the right. 
+
+See snapshot below:
 ![Alt text](https://github.com/anjali-deshpande-hub/git_assignment/blob/assignment/image2.jpg "Manage Access")
 
-Search for the username you want to add as a collaborator. Click "Add \<username\> to this repository\>"\n
-See snapshot below:\n
-![Alt text](https://github.com/anjali-deshpande-hub/git_assignment/blob/assignment/image3.jpg "Manage Access")\n
+Search for the username you want to add as a collaborator. Click "Add \<username\> to this repository\>
+
+See snapshot below:
+
+![Alt text](https://github.com/anjali-deshpande-hub/git_assignment/blob/assignment/image3.jpg "Manage Access")
 
 4. GitHub sends an email invitation to the user you have added as a collaborator. They will have to accept the invitation to become a collaborator
-After the user does that, you can assign thema roles based on permissions granted. They can have admin, write or read acces to the repository.\n
-See snapshot below:\n
-![Alt text](https://github.com/anjali-deshpande-hub/git_assignment/blob/assignment/image3.jpg "Manage Access")\n
+After the user does that, you can assign thema roles based on permissions granted. They can have admin, write or read access to the repository.
+
+See snapshot below:
+
+![Alt text](https://github.com/anjali-deshpande-hub/git_assignment/blob/assignment/image3.jpg "Manage Access")
 
 e. What is the difference between git and GitHub?
 
